@@ -1,0 +1,132 @@
+.canvas {
+  display: flex;
+}
+
+.boxcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstrow {
+  display: flex;
+  position: relative;
+}
+
+.smallrectangle {
+  background-color: #2596be;
+  height: 50px;
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.skinnyrectangle {
+  background-color: #c9e265;
+  height: 10px;
+  width: 380px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.largerectangle {
+  background-color: #2596be;
+  height: 100px;
+  width: 380px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.triangle1 {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 150px solid #008037;
+  z-index: 3px;
+  position: relative;
+  left: 56%;
+  bottom: 40%;
+}
+
+.triangle2 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #c9e265;
+  z-index: 5px;
+  position: relative;
+  left: 76.5%;
+  bottom: 140%;
+}
+
+.biggercircletop {
+  height: 50px;
+  width: 50px;
+  background-color: #ff8888;
+  border-radius: 50%;
+  position: relative;
+  left: 95%;
+  bottom: 90%;
+}
+
+.biggercirclebottom {
+  height: 50px;
+  width: 50px;
+  background-color: #ffde59;
+  border-radius: 50%;
+  position: relative;
+  left: 40%;
+  bottom: 40%;
+}
+
+.smallcircle1 {
+  height: 20px;
+  width: 20px;
+  background-color: #ffde59;
+  border-radius: 50%;
+  position: relative;
+  left: 35%;
+  bottom: 40%;
+}
+
+.smallcircle2 {
+  height: 20px;
+  width: 20px;
+  background-color: #ff8888;
+  border-radius: 50%;
+  position: relative;
+  left: 5%;
+  bottom: 14%;
+}
+
+.smallcircle3 {
+  height: 20px;
+  width: 20px;
+  background-color: #ff8888;
+  border-radius: 50%;
+  position: relative;
+  left: 5%;
+  bottom: 50%;
+}
+
+.smallcircle4 {
+  height: 20px;
+  width: 20px;
+  background-color: #ff8888;
+  border-radius: 50%;
+  position: relative;
+  left: 170%;
+  bottom: 320%;
+}
+
+.peoplecontainer {
+  position: relative;
+  left: -2%;
+  bottom: 163%;
+  font-size: 20px;
+}
+
+.fa-solid:nth-child(-N + 6) {
+  color: #6ce5e8;
+}
